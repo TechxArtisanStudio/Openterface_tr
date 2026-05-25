@@ -1,0 +1,34 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import DocLinkBanner from '../../components/DocLinkBanner.astro';
+import { docsPath } from '../../config/site';
+---
+
+<BaseLayout
+  title="Openterface Hakkında"
+  description="TechxArtisan tarafından geliştirilen açık kaynak KVM-over-USB çözümleri hakkında Openterface'i keşfedin."
+  ogImageAlt="TechxArtisan tarafından Openterface açık kaynak KVM-over-USB çözümleri"
+  canonicalPath="/about/"
+>
+  <DocLinkBanner />
+  <section class="py-16">
+    <div class="mx-auto max-w-3xl px-4">
+      <h1 class="text-4xl font-bold">Openterface Hakkında</h1>
+      <p class="mt-6 text-lg leading-relaxed text-muted">
+        Openterface, IT profesyonelleri, geliştiriciler ve maker'lar için ultra kompakt açık kaynak KVM-over-USB araçları geliştirir.
+        Crowdfunding Mini-KVM'den anahtarlık boyutundaki KVM-GO'ya ve programlanabilir KeyMod serisine kadar — headless bilgisayarları hantal ekipman veya karmaşık ağlar olmadan yönetmeyi basitleştirmek misyonumuzdur.
+      </p>
+      <div class="mt-8 flex flex-wrap gap-3">
+        <a href={docsPath('/about/about-us/')} class="btn btn-secondary" target="_blank" rel="noopener">
+          Hakkımızda →
+        </a>
+        <a href={docsPath('/about/compliance/')} class="btn btn-secondary" target="_blank" rel="noopener">
+          Uyumluluk →
+        </a>
+        <a href={docsPath('/about/community/')} class="btn btn-secondary" target="_blank" rel="noopener">
+          Topluluk →
+        </a>
+      </div>
+    </div>
+  </section>
+</BaseLayout>

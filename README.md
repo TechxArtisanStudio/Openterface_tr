@@ -1,8 +1,6 @@
-# Openterface_tr
+# openterface_en
 
-Turkish marketing site for Openterface — Astro 6 + Tailwind 4. Deploys to **tr.openterface.com**.
-
-Forked from [`openterface_en`](https://github.com/TechxArtisanStudio/openterface_en). Locale scaffold in progress.
+English marketing site for Openterface — Astro 6 + Tailwind 4. Deploys to **en.openterface.com**.
 
 ## Quick start
 
