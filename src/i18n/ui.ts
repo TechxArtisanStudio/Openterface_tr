@@ -17,6 +17,44 @@ export interface MarketingUi {
     emailPlaceholder: string;
     footnote: string;
   };
+  siteFooter: {
+    tagline: string;
+    productsHeading: string;
+    keymodSeries: string;
+    kvmGoSeries: string;
+    miniKvm: string;
+    accessories: string;
+    resourcesHeading: string;
+    videos: string;
+    faqs: string;
+    apps: string;
+    support: string;
+    newsletterTitle: string;
+    newsletterDescription: string;
+    newsletterSubmit: string;
+    newsletterNamePlaceholder: string;
+    newsletterEmailPlaceholder: string;
+    newsletterFootnote: string;
+    copyright: string;
+    privacy: string;
+    terms: string;
+  };
+  productLanding: {
+    downloadApp: string;
+    backers: string;
+    theProblem: string;
+    theSolution: string;
+    hwSoftwareTitle: string;
+    hwSoftwareSubtitle: string;
+    hardware: string;
+    software: string;
+    swFallback: string;
+    keySpecs: string;
+    useCases: string;
+    documentation: string;
+    ctaTitle: string;
+    ctaSubtitle: string;
+  };
 }
 
 export const ui: MarketingUi = {
@@ -37,5 +75,43 @@ export const ui: MarketingUi = {
     "namePlaceholder": "Ad (isteğe bağlı)",
     "emailPlaceholder": "E-posta adresi *",
     "footnote": "Ayda en fazla bir e-posta. İstediğiniz zaman iptal edin. Sorular: info@openterface.com"
+  },
+  "siteFooter": {
+    "tagline": "BT profesyonelleri için ultra kompakt KVM-over-USB çözümleri.",
+    "productsHeading": "Ürünler",
+    "keymodSeries": "KeyMod Serisi",
+    "kvmGoSeries": "KVM-GO Serisi",
+    "miniKvm": "Mini-KVM",
+    "accessories": "Aksesuarlar",
+    "resourcesHeading": "Kaynaklar",
+    "videos": "Videolar",
+    "faqs": "SSS",
+    "apps": "Uygulamalar",
+    "support": "Destek",
+    "newsletterTitle": "Bülten",
+    "newsletterDescription": "Ürünler, firmware ve KVM ipuçları hakkında aylık güncellemeler.",
+    "newsletterSubmit": "Abone ol",
+    "newsletterNamePlaceholder": "Ad",
+    "newsletterEmailPlaceholder": "E-posta *",
+    "newsletterFootnote": "İstediğiniz zaman abonelikten çıkın.",
+    "copyright": "Openterface. Açık kaynak KVM-over-USB.",
+    "privacy": "Gizlilik",
+    "terms": "Koşullar"
+  },
+  "productLanding": {
+    "downloadApp": "Uygulamayı indir",
+    "backers": "Destekçiler",
+    "theProblem": "Sorun",
+    "theSolution": "Çözüm",
+    "hwSoftwareTitle": "Donanım + Yazılım",
+    "hwSoftwareSubtitle": "Openterface ürünleri açık kaynak host uygulamalarımızla en iyi şekilde çalışır.",
+    "hardware": "Donanım",
+    "software": "Yazılım",
+    "swFallback": "Aksesuar uyumluluğu ayrıntıları için TxA Shop’a bakın.",
+    "keySpecs": "Temel özellikler",
+    "useCases": "Kullanım senaryoları",
+    "documentation": "Dokümantasyon",
+    "ctaTitle": "Başlamaya hazır mısınız?",
+    "ctaSubtitle": "Donanım sipariş edin ve platformunuz için Openterface uygulamasını indirin."
   }
 };
