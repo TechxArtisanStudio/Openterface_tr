@@ -17,6 +17,18 @@ export interface MarketingUi {
     emailPlaceholder: string;
     footnote: string;
   };
+  productSubscribe: {
+    kicker: string;
+    heading: string;
+    description: string;
+    benefitCrowdfunding: string;
+    benefitGuides: string;
+    benefitUnsubscribe: string;
+    submitLabel: string;
+    namePlaceholder: string;
+    emailPlaceholder: string;
+    footnote: string;
+  };
   siteFooter: {
     tagline: string;
     productsHeading: string;
@@ -29,6 +41,7 @@ export interface MarketingUi {
     faqs: string;
     apps: string;
     support: string;
+    newsletterLink: string;
     newsletterTitle: string;
     newsletterDescription: string;
     newsletterSubmit: string;
@@ -89,14 +102,15 @@ export const ui: MarketingUi = {
     "apps": "Uygulamalar",
     "support": "Destek",
     "newsletterTitle": "Bülten",
-    "newsletterDescription": "Ürünler, firmware ve KVM ipuçları hakkında aylık güncellemeler.",
+    "newsletterDescription": "Lansmanlara erken erişim, aylık ürün ve firmware güncellemeleri ve KVM ipuçları — ayda en fazla bir e-posta.",
     "newsletterSubmit": "Abone ol",
     "newsletterNamePlaceholder": "Ad",
     "newsletterEmailPlaceholder": "E-posta *",
     "newsletterFootnote": "İstediğiniz zaman abonelikten çıkın.",
     "copyright": "Openterface. Açık kaynak KVM-over-USB.",
     "privacy": "Gizlilik",
-    "terms": "Koşullar"
+    "terms": "Koşullar",
+    "newsletterLink": "Bülten"
   },
   "productLanding": {
     "downloadApp": "Uygulamayı indir",
@@ -113,5 +127,17 @@ export const ui: MarketingUi = {
     "documentation": "Dokümantasyon",
     "ctaTitle": "Başlamaya hazır mısınız?",
     "ctaSubtitle": "Donanım sipariş edin ve platformunuz için Openterface uygulamasını indirin."
+  },
+  "productSubscribe": {
+    "kicker": "Haberdar kalın",
+    "heading": "{product} lansman ve firmware güncellemeleri",
+    "description": "Bu ürün için ön sipariş, firmware ve kurulum ipuçlarından ilk siz haberdar olun — ayda en fazla bir e-posta.",
+    "benefitCrowdfunding": "Crowdfunding ve ön sipariş pencerelerine erken erişim",
+    "benefitGuides": "Kurulum kılavuzları ve uygulama sürüm notları",
+    "benefitUnsubscribe": "Tek tıkla istediğiniz zaman abonelikten çıkın",
+    "submitLabel": "Güncellemelere abone ol",
+    "namePlaceholder": "Ad (isteğe bağlı)",
+    "emailPlaceholder": "E-posta adresi *",
+    "footnote": "Ayda en fazla bir e-posta. İstediğiniz zaman iptal edin. Sorular: info@openterface.com"
   }
 };
