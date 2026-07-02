@@ -7,53 +7,89 @@ import type { Product } from '../products';
  */
 export const kvmgoProduct: Product = {
   slug: 'kvm-go',
-  title: "Openterface KVM-GO Serisi",
-  slogan: "Anahtarlığınıza Sığan Ultra Kompakt KVM",
-  subtitle: "Kritik Teknoloji Anları İçin — Tak. Kontrol Et. Git.",
+  title: 'Openterface KVM-GO Series',
+  slogan: 'Ultra-Compact KVM That Fits on Your Keychain',
+  subtitle: 'For Critical Tech Moments — Plug. Control. Go.',
   status: 'pre-order',
   description:
-    "Dahili video bağlantılarına (HDMI, DisplayPort veya VGA) sahip yeni nesil KVM-over-USB çözümü. Ultra kompakt, anahtarlık boyutunda ve veri merkezleri ile sunucu odalarında hızlı BT operasyonları için tasarlandı.",
+    'The next-generation KVM-over-USB solution with built-in video connectors (HDMI, DisplayPort, or VGA). Ultra-compact, keychain-sized, and built for rapid IT operations in data centers, server rooms, and the field — no loose video cables required.',
   seoDescription:
-    "Openterface KVM-Go ile ekransız bilgisayarları kontrol edin. Dahili HDMI/DP/VGA, anahtarlık boyutunda, BT profesyonelleri için 4K KVM-over-USB.",
+    'Control headless computers with Openterface KVM-GO. Built-in HDMI/DP/VGA connectors, keychain-sized, 4K-capable KVM-over-USB for IT professionals.',
   keywords:
-    "KVM-Go, USB üzerinden KVM, ultra kompakt KVM, anahtarlık KVM, 4K KVM, ekransız kontrol",
+    'KVM-GO, KVM over USB, ultra-compact KVM, keychain KVM, 4K KVM, built-in HDMI, MicroSD KVM, headless control',
   heroImage: 'https://assets.openterface.com/images/cover/kvm-go-triple.webp',
   heroImages: [
     'https://assets.openterface.com/images/cover/kvm-go-triple.webp',
     'https://assets.openterface.com/images/cover/kvm-go-triple-2.webp',
   ],
-  buyLabel: "ŞİMDİ Ön Sipariş Ver",
+  buyLabel: 'Pre-Order NOW',
   buyHref: siteConfig.links.kvmgoPurchase,
-  funding: { amount: "$101,548", date: "30 Ara 2025 tarihinde fonlandı", backers: "478" },
+  funding: { amount: '$101,548', date: 'Funded on Dec 30, 2025', backers: '478' },
   painPoints: [
-    "Geleneksel KVM ekipmanları hantal olup ayrı video kabloları gerektirir",
-    "Sahada acil sunucu erişimi için cep boyutunda bir araç gerekir",
-    "Ağ erişimi olmadan ekransız sorun giderme yavaştır",
+    'Traditional KVM gear is bulky and requires separate video cables',
+    'Emergency server access in the field needs a pocket-sized tool',
+    'Headless troubleshooting without network access is slow',
   ],
   solutions: [
-    "Dahili video bağlantıları ekstra kablo ihtiyacını ortadan kaldırır",
-    "Anahtarlık form faktörü her zaman elinizin altında",
-    "KVM-over-USB — hedef cihazda ağ veya sürücü gerekmez",
+    'Built-in male HDMI, DisplayPort, or VGA connectors — no loose cables',
+    'Keychain form factor (~25 g) always within reach',
+    'KVM-over-USB with sub-second startup — no network or target drivers',
   ],
   hwFeatures: [
-    { title: "Dahili video", description: "HDMI, DisplayPort veya VGA modelleri — dağınık kablo yok." },
-    { title: "Anahtarlık boyutu", description: "Openterface ürün ailesindeki en küçük KVM-over-USB." },
-    { title: "4K desteği", description: "Modern ekranlar için yüksek çözünürlüklü görüntü yakalama." },
+    {
+      title: 'Keychain-sized design',
+      description: '18 × 18 × 55 mm aluminum body — fits in your pocket, not a crash cart.',
+    },
+    {
+      title: 'Built-in video connectors',
+      description: 'Direct plug-in HDMI, DisplayPort, or VGA male connectors — zero cable hunt.',
+    },
+    {
+      title: '4K video capture',
+      description: 'Up to 4096×2160 @ 60 Hz input; default 1080p@60 for stability (4K experimental).',
+    },
+    {
+      title: 'MicroSD slot',
+      description: 'Switchable storage for OS images, tools, and file transfer between host and target.',
+    },
+    {
+      title: 'BIOS-level access',
+      description: 'Reach firmware, boot menus, and recovery screens without network KVM.',
+    },
+    {
+      title: 'Sub-second startup',
+      description: 'Hardware ready in under 1 second — immediate troubleshooting in the field.',
+    },
   ],
   swFeatures: [
-    { title: "Openterface Qt Uygulaması", description: "Windows, macOS ve Linux için çapraz platform ana bilgisayar kontrolü." },
-    { title: "MicroSD anahtarı", description: "Taşınabilir işletim sistemi kalıpları ve araçları için değiştirilebilir depolama." },
-    { title: "Açık kaynak yığını", description: "Topluluk odaklı ürün yazılımı ve ana bilgisayar uygulamaları." },
+    {
+      title: 'Cross-platform host apps',
+      description: 'macOS, Windows, Linux, Android, and Chrome web app support.',
+    },
+    {
+      title: 'Text transfer',
+      description: 'Send usernames, passwords, and code via simulated keystrokes (ASCII).',
+    },
+    {
+      title: 'Open source',
+      description: 'Fully open hardware and software — transparent, community-driven stack.',
+    },
   ],
   specs: [
-    { label: "Video", value: "HDMI / DP / VGA (modele göre değişir)" },
-    { label: "Çözünürlük", value: "4K'a kadar" },
-    { label: "Bağlantı", value: "USB-C KVM-over-USB" },
+    { label: 'Size', value: '18 × 18 × 55 mm (~25 g)' },
+    { label: 'Models', value: 'HDMI · DisplayPort · VGA (in development)' },
+    { label: 'Video input', value: 'Up to 4K @ 60 Hz (YUV420)' },
+    { label: 'Video output', value: 'Up to 4K @ 60 Hz (MJPEG)' },
+    { label: 'Storage', value: 'MicroSD slot for host/target file transfer' },
+    { label: 'Power', value: 'USB-C powered (no external supply)' },
   ],
   useCases: [
-    "Veri merkezi denetimleri",
-    "Ekransız cihaz kurulumu",
-    "Saha BT ve ev laboratuvarı kurtarma",
+    'Data center walk-throughs',
+    'Headless device setup',
+    'Field IT and homelab rescue',
+    'Travel EDC toolkit',
+    'Legacy VGA rack access',
+    'Maker faire & bench demos',
   ],
   useCaseCards: [
     {
@@ -123,11 +159,12 @@ export const kvmgoProduct: Product = {
   latestNewsSubtitle: 'Production milestones, app releases, and community news.',
   latestNewsLabel: 'Read on Openterface News →',
   docLinks: [
-    { label: "Özellikler", href: docsPath("/product/kvm-go/features/") },
-    { label: "Beta Hızlı Başlangıç", href: docsPath("/product/kvm-go/beta-quick-start/") },
-    { label: "Nasıl Bağlanır", href: docsPath("/product/kvm-go/how-to-connect/") },
-    { label: "SSS", href: docsPath("/product/kvm-go/faq/") },
-    { label: "Uygulamayı İndir", href: docsPath("/app/overview/") },
+    { label: 'Features', href: docsPath('/products/kvmgo/features/') },
+    { label: 'Beta Quick Start', href: docsPath('/products/kvmgo/beta-quick-start/') },
+    { label: 'How to Connect', href: docsPath('/products/kvmgo/how-to-connect/') },
+    { label: 'MicroSD Switch', href: docsPath('/products/kvmgo/microsd-switch/') },
+    { label: 'Reviews & Media', href: docsPath('/products/kvmgo/reviews/') },
+    { label: 'FAQs', href: docsPath('/products/kvmgo/faq/') },
   ],
-  legacyBase: "/products/kvm-go/",
+  legacyBase: '/products/kvmgo/',
 };
