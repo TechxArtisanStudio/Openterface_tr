@@ -7,6 +7,8 @@ export const localeNavLabels: EcosystemNavLabels = {
   allApps: "Tüm uygulamalar",
   kvmControl: "Openterface KVM",
   docs: "Dokümantasyon",
+  productDocs: 'Docs →',
+  allDocumentation: 'All documentation →',
   media: "Medya",
   news: "Haberler",
   forum: "Forum",
