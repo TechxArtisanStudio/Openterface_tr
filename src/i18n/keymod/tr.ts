@@ -9,7 +9,7 @@ export const tr: KeymodLandingStrings = {
     },
     nav: {
       docs: "Dokümanlar",
-      preLaunchCta: "Ön Lansman",
+      preLaunchCta: "Crowd Supply'da Destekle",
     },
     povTabs: {
       keyboard: "Klavye",
@@ -28,7 +28,7 @@ export const tr: KeymodLandingStrings = {
       equationEquals: "=",
       lead: "Hedef cihaza takın. BLE kontrolü, sürücü gerektirmez, BIOS uyumlu. Sunucu, PC veya konsol. Herhangi bir USB portu.",
       docsCta: "Belgeler",
-      preLaunchCta: "Ön lansman",
+      preLaunchCta: "Crowd Supply'da Destekle",
     },
     whatItIs: {
       eyebrow: "Nedir",
@@ -49,7 +49,7 @@ export const tr: KeymodLandingStrings = {
       eyebrow: "Bağlantı noktanızı seçin",
       title: "Mini vs Plus",
       stackLine: "Aynı KeyCmd uygulaması. Cihazınızdaki bağlantı noktası için farklı dongle.",
-      crowdSupplyCta: "Crowd Supply'da Ön Lansman",
+      crowdSupplyCta: "Crowd Supply'da Canlı",
       mini: {
         name: "KeyMod Mini",
         port: "USB-C erkek → hedef",
@@ -127,10 +127,10 @@ export const tr: KeymodLandingStrings = {
         mediaLabel: "POV KM Pro hibrit düzeni (yer tutucu)",
       },
       proTerminal: {
-        badge: "Terminal · Önizleme",
+        badge: "Terminal",
         title: "Telefonunuzdan SSH erişimi",
-        lead: "Kablolu bağlantıda USB, sunucu rafında Bluetooth. Önizleme demoları bugün KeyCmd ile kullanıma sunuldu.",
-        body: "KeyCmd'deki özel Terminal modu: USB ECM (Plus) veya BLE-Eth (Mini) üzerinden SSH. Tam üretim entegrasyonu, KeyMod ürün yazılımı 2. Aşama ile birlikte geliyor.",
+        lead: "KeyCmd'den doğrudan SSH oturumları açın. Kabloda USB. Rack'te Bluetooth.",
+        body: "KeyCmd'de Terminal modu: USB ECM (Plus) veya BLE-Eth (Mini) üzerinden SSH. Bugün macOS ve Linux hedefleriyle çalışır.",
         mediaLabel: "Terminal SSH oturumu (USB aktarımı, yeniden çekim)",
       },
       composeSend: {
@@ -262,19 +262,19 @@ export const tr: KeymodLandingStrings = {
           ],
         },
         terminal: {
-          badge: "Terminal · Önizleme",
+          badge: "Terminal",
           title: "Telefonunuzdan SSH",
           body: "Özel Terminal modu, SSH'ı KeyMod köprüsü üzerinden çalıştırır. Makinede hız için USB'yi veya odanın diğer ucundayken Bluetooth'u seçin.",
-          experimentalHint: "Önizleme özelliği. KeyMod donanımı üzerinden canlı SSH, firmware Faz 2'yi takip eder.",
+          experimentalHint: "",
           demo: {
             interactiveDemoLabel: "İnteraktif demo",
-            title: "Terminal Önizlemesi",
+            title: "Terminal Demo",
             summary: "Konserve SSH oturumu tekrarını deneyin. Donanım gerekmez.",
             statusDisconnected: "Bağlı Değil",
             statusConnecting: "Bağlanıyor…",
             statusConnected: "Bağlandı",
-            demoBleLabel: "Önizleme demosu (Bluetooth)",
-            demoUsbLabel: "Önizleme demosu (USB)",
+            demoBleLabel: "Demo (Bluetooth)",
+            demoUsbLabel: "Demo (USB)",
             transportBle: "BLE",
             transportUsb: "USB",
             uiFidelityNote: "Yaklaşık arayüz. Canlı uygulama için telefonunuzda KeyCmd'i kontrol edin.",
@@ -290,7 +290,7 @@ export const tr: KeymodLandingStrings = {
             label: "BLE-Eth · KeyMod Mini",
             body: "Mini hedefteyken kablosuz SSH. Kompakt terminal geometrisi önerilir. Önizleme demosu bugün KeyCmd'de mevcut.",
           },
-          notice: "KeyCmd, Terminal arayüzü ve taşıma yığınını bugün Önizleme demolarıyla (USB ve Bluetooth) birlikte sunuyor. KeyMod donanımı üzerinden canlı SSH, firmware Faz 2 onayını takip eder.",
+          notice: "Terminal modu bugün KeyCmd'de mevcut. KeyMod köprüsü üzerinden macOS ve Linux hedeflerinde SSH oturumları açın. RNDIS üzerinden Windows hedef desteği geliştirme aşamasındadır.",
         },
       },
       gameZone: {
@@ -471,10 +471,10 @@ export const tr: KeymodLandingStrings = {
     productJourney: {
       eyebrow: "Ürün yolculuğu",
       title: "Konseptten masanıza",
-      subtitle: "Yedi kilometre taşı tamamlandı. Lansman öncesi doğrulama devam ediyor. Sırada kitle fonlaması ve teslimat var.",
+      subtitle: "Sekiz kilometre taşına ulaşıldı. Sınırlı mühendislik örnekleri dağıtıldı. Crowdfunding Crowd Supply'da canlı.",
       scrollHint: "← Önceki kilometre taşları için kaydırın",
       nowLabel: "Şimdi",
-      nowSublabel: "Lansman öncesi · son donanım ve firmware doğrulaması",
+      nowSublabel: "Crowd Supply'da crowdfunding canlı",
       milestones: [
         {
           id: "concept",
@@ -491,8 +491,8 @@ export const tr: KeymodLandingStrings = {
         {
           id: "cs-prelaunch",
           status: "done",
-          title: "Crowd Supply lansman öncesi",
-          lead: "Kampanya sayfası yayında. Lansman günü için takip edin.",
+          title: "Crowd Supply kampanyası canlı",
+          lead: "Kampanya canlı. KeyMod'u destekleyin ve sizinkini garanti altına alın.",
           href: keymodLinks.crowdSupply,
         },
         {
@@ -521,19 +521,16 @@ export const tr: KeymodLandingStrings = {
         },
         {
           id: "beta-2",
-          status: "upcoming",
-          variant: "beta",
-          badge: "Beta · 2. Tur",
-          title: "Sonraki beta davetleri",
-          lead: "Kitle fonlaması öncesi yenilenmiş firmware ve donanım üzerinde daha geniş kapsamlı kapalı beta.",
-          timingLabel: "Lansman öncesi",
-          href: "#updates",
+          status: "done",
+          title: "Mühendislik örnekleri dağıtıldı",
+          lead: "Erken destekçilere gerçek dünya doğrulaması için sınırlı mühendislik birimleri tahsis edildi.",
         },
         {
           id: "crowdfunding",
-          status: "upcoming",
-          title: "Kitle fonlaması başlıyor",
-          timingLabel: "~Temmuz 2026 ortası",
+          status: "done",
+          title: "Crowdfunding canlı",
+          timingLabel: "Ağustos 2026",
+          href: keymodLinks.crowdSupply,
         },
         {
           id: "campaign",
@@ -577,15 +574,15 @@ export const tr: KeymodLandingStrings = {
     },
     crowdSupplyCampaign: {
       eyebrow: "Crowd Supply",
-      title: "Crowd Supply'da Ön Lansman",
-      body: "Crowd Supply'da KeyMod Mini ve Plus'a destek olun — telefonunuzu kablosuz bir konsola dönüştüren cep boyutunda USB köprüleri. Bunu gerçeğe dönüştürmemiz için bize destek olun!",
-      cta: "Ön Lansman",
+      title: "Crowd Supply'da Canlı",
+      body: "KeyMod Mini ve Plus'ı Crowd Supply'da destekleyin. Telefonunuzu kablosuz bir konsola dönüştüren cep USB köprüleri. Kampanya canlı.",
+      cta: "Kampanyayı destekle",
     },
     crowdSupplySupport: {
       eyebrow: "Projeyi destekleyin",
       title: "Sıradaki yeniliği sunmamıza yardımcı olun",
-      body: "Crowd Supply'da KeyMod'u takip edin ve kampanya başladığında destek olun. Agent gibi deneysel modlar, daha fazla geliştirici projeyi desteklediğinde çok daha hızlı hayata geçiyor — her destekçi, ürün yazılımı yol haritasının bekleme listesinden gerçeğe dönüşmesine katkı sağlıyor.",
-      cta: "Crowd Supply'da Takip Et",
+      body: "KeyMod Crowd Supply'da canlı. Kampanyayı destekleyin ve firmware yol haritasını oluşturmamıza yardımcı olun. Agent gibi deneysel modlar, daha fazla maker projeyi desteklediğinde daha hızlı çıkar. Her destekçi bize daha fazla mühendislik zamanı kazandırır.",
+      cta: "Crowd Supply'da Destekle",
     },
     crowdSupplyOpensource: {
       eyebrow: "Açık tasarım",
@@ -608,7 +605,7 @@ export const tr: KeymodLandingStrings = {
       title: "KeyMod lansman güncellemelerini alın",
       description: "Ürün lansmanları, firmware güncellemeleri ve kurulum kılavuzları. Ayda en fazla bir e-posta. Spam yok.",
       benefits: [
-        "Kitle fonlaması ve ön sipariş dönemlerine erken erişim",
+        "Crowd Supply kampanyasına doğrudan erişim",
         "Kurulum kılavuzları ve KeyCmd sürüm notları",
         "Tek tıkla istediğiniz zaman abonelikten çıkın",
       ],
