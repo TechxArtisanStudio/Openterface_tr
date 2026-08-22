@@ -572,7 +572,22 @@ export const tr: KeymodLandingStrings = {
       cta: "KeyCmd ile Tanışın",
       mediaLabel: "KeyCmd karşılama ekranı, bir kontrol modu seçin",
     },
-    crowdSupplyCampaign: {
+    crowdSupplyStats: {
+    eyebrow: 'Campaign progress',
+    title: 'Live on Crowd Supply',
+    ofGoal: 'of {goal} goal',
+    funded: 'Funded',
+    overFunded: 'Stretch goal unlocked!',
+    backers: 'backers',
+    daysLeft: 'days left',
+    updates: 'updates',
+    cta: 'Back the campaign',
+    lastUpdated: 'Updated',
+    updatedJustNow: 'just now',
+    updatedYesterday: 'yesterday',
+    fallbackText: 'Campaign is live on Crowd Supply.',
+  },
+  crowdSupplyCampaign: {
       eyebrow: "Crowd Supply",
       title: "Crowd Supply'da Canlı",
       body: "KeyMod Mini ve Plus'ı Crowd Supply'da destekleyin. Telefonunuzu kablosuz bir konsola dönüştüren cep USB köprüleri. Kampanya canlı.",
